@@ -1,3 +1,5 @@
+import { NoteCard } from "./components/noteCard";
+
 export function App() {
   return (
     <div className="mx-auto max-w-6xl my-12 space-y-6">
@@ -24,30 +26,7 @@ export function App() {
 
         </div>
 
-        <div className="rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative">
-          <span
-            className="text-sm font-medium text-slate-300">
-            ha 2 dias
-          </span>
-          <p
-            className="text-sm leading-6 text-slate-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil illum, voluptatum quam quidem odit, blanditiis dolores sunt voluptate dignissimos atque provident amet reiciendis unde adipisci, nobis quod est quis!
-          </p>
-          <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none" />
-        </div>
-
-        <div className="rounded-md bg-slate-800 p-5 space-y-3 overflow-hidden relative">
-          <span
-            className="text-sm font-medium text-slate-300">
-            ha 4 dias
-          </span>
-          <p
-            className="text-sm leading-6 text-slate-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eaque magni modi veniam velit numquam aspernatur laudantium, tempora quia adipisci libero rem, illo repellendus dolor possimus temporibus unde pariatur perspiciatis?
-          </p>
-          <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/60 to-black/0 pointer-events-none" />
-        </div>
-
+        <NoteCard />
       </div>
     </div>
   )
